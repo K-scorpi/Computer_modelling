@@ -14,4 +14,5 @@ Lab works from computer modelling physical processes. Urfu
 Моделирование в среде Simulink
 
 
-Install python3 
+# Install python3
+/-- --!/
