@@ -20,9 +20,9 @@ def auth_login(login):
     handbook = ['Мавпродош', 'Лорнектиф', 'Древерол',
                 'Фиригарпиг', 'Клодобродыч']
     if login in handbook:
-        print(f'Логин {login} найдет. Приятной работы')
+        print(f'Логин {login} найден. Приятной работы')
     else:
-        print(f'Логин {login} не найдет. Повторите попытку')
+        print(f'Логин {login} не найден. Повторите попытку')
         auth_login((input()))
 
 
