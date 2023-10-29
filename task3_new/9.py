@@ -1,4 +1,6 @@
 import random
+
+
 print("Введите количество столбцов")
 columns = int(input())
 print("Введите количество строк")
@@ -11,6 +13,12 @@ for i in range(strings):
         arr[i][x] = random.randint(0,100)
 
 print(arr)
-arr[numberStr].sort()
-print(f"Массив с отсортированной строкой {numberStr+1}")
-print(arr)
+
+
+def f(arr,numberStr):
+    arr[numberStr].sort()
+    print(f"Массив с отсортированной строкой {numberStr+1}")
+    print(arr)
+
+
+f(arr, numberStr)
